@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<step action='setShadowDOM' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setShadowDOM' value='' selected='true'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://siemensmarket--uat.sandbox.my.site.com/s/?language=en_US"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='submit(&quot;Accept All Cookies&quot;)' selected='true'/>
+   <accessor type='click' value='submit(1, _in(div(&quot;coQPdm sc-iJnaPW&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(1, _in(div(&quot;Reject CookiesAccept All Cookies[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(3)' selected='false'/>
+   <accessor type='click' value='submit(&quot;cTBEww sc-eDvSVe[1]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(link(&quot;slds-container_fluid slds-truncate[2]&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;API World&quot;)' selected='false'/>
+   <accessor type='click' value='span(5)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Welcome to API World"' type='web' desc='&quot;Validate the text in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value=' byXPath(&quot;//span[text()=&apos;Welcome to API World&apos;]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='  Header' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;//h1[@class=&apos;iotLargeHeadline iotHeadline&apos;]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;//h1[@class=&apos;iotLargeHeadline iotHeadline&apos;]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"API catalogue"' type='web' desc='&quot;Validate the text in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='   byXPath(&quot;//h2[@class=&apos;api-text&apos;]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='  byXPath(&quot;//div[@class=&apos;api-text&apos;]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='  byXPath(&quot;//div[@class=&apos;api-text&apos;]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Explore our APIs"' type='web' desc='&quot;Validate the text in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value=' byXPath(&quot;//h2[@class=&apos;api-text&apos;]//following-sibling::div&quot;) ' selected='true'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;//div[@class=&apos;api-text&apos;]//following-sibling::div&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Are you a Developer? Discover Mendix, a low-code development platform."' type='web' desc='&quot;Validate the text in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value=' byXPath(&quot;//a[@title=&apos;Discover Mendix&apos;]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;//a[@title=&apos;Entdecken Mendix&apos;]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;style_title&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;flex_adder flex_column prod_details&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;API Product&quot;)' selected='false'/>
+   <accessor type='click' value='span(11)' selected='false'/>
+</dialect>
+</step>
+<step action='selectWindow' value='"API Details"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='selectWindow' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Analyze MyWorkpiece /Capture4Analysis"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='  byXPath(&quot;//h1//span[text()=&apos;Analyze MyWorkpiece /Capture4Analysis&apos;]&quot;) ' selected='true'/>
+   <accessor type='assertContainsText' value=' byXPath(&quot;&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;API World&quot;)' selected='true'/>
+   <accessor type='click' value='span(5)' selected='false'/>
+   <accessor type='click' value='span(0, _in(link(&quot;slds-container_fluid slds-truncate[3]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"400"' type='web' desc='&quot;Validate the header in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value=' getComputedStyle(byXPath(&quot;//span[text()=&apos;Welcome to API World&apos;]&quot;),&quot;font-weight&quot;)' selected='true'/>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//h1[@class=&apos;iotLargeHeadline iotHeadline&apos;]&quot;),&quot;font-weight&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"40px"' type='web' desc='&quot;Validate the header in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value=' getComputedStyle(byXPath(&quot;//span[text()=&apos;Welcome to API World&apos;]&quot;),&quot;font-size&quot;) ' selected='true'/>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//h1[@class=&apos;iotLargeHeadline iotHeadline&apos;]&quot;),&quot;font-size&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"52px"' type='web' desc='&quot;Validate the header in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value=' getComputedStyle(byXPath(&quot;//span[text()=&apos;Welcome to API World&apos;]&quot;),&quot;line-height&quot;) ' selected='true'/>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//h1[@class=&apos;iotLargeHeadline iotHeadline&apos;]&quot;),&quot;line-height&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"32px"' type='web' desc='&quot;Validate the header in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//h2[@class=&apos;api-text&apos;]&quot;),&quot;font-size&quot;)' selected='true'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"38px"' type='web' desc='&quot;Validate the header in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//h2[@class=&apos;api-text&apos;]&quot;),&quot;line-height&quot;)' selected='true'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"900"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='  getComputedStyle(byXPath(&quot;//h2[@class=&apos;api-text&apos;]&quot;),&quot;font-weight&quot;)' selected='true'/>
+   <accessor type='assertEqual' value=' getComputedStyle(byXPath(&quot;//h2[@class=&apos;api-text&apos;]&quot;),&quot;line-height&quot;) ' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;style_title&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(div(&quot;flex_adder flex_column prod_details&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;API Product&quot;)' selected='false'/>
+   <accessor type='click' value='span(11)' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"18px"' type='web' desc='&quot;Validate the header in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='    getComputedStyle(byXPath(&quot;//p[text()=&apos;API Product&apos;]&quot;),&quot;font-size&quot;)' selected='true'/>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//span[text()=&apos;API&apos;]&quot;),&quot;font-size&quot;)' selected='false'/>
+   <accessor type='assertEqual' value=' getComputedStyle(byXPath(&quot;//span[text()=&apos;API API Product&apos;]&quot;),&quot;font-size&quot;) ' selected='false'/>
+   <accessor type='assertEqual' value='  getComputedStyle(byXPath(&quot;//span[text()=&apos;API Product&apos;]&quot;),&quot;font-size&quot;)  ' selected='false'/>
+   <accessor type='assertEqual' value='   getComputedStyle(byXPath(&quot;//p[text()=&apos;API Product&apos;]&quot;),&quot;font-size&quot;)   ' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"22px"' type='web' desc='&quot;Validate the header in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='    getComputedStyle(byXPath(&quot;//p[text()=&apos;API Product&apos;]&quot;),&quot;line-height&quot;) ' selected='true'/>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//span[text()=&apos;API&apos;]&quot;),&quot;line-height&quot;)' selected='false'/>
+   <accessor type='assertEqual' value=' getComputedStyle(byXPath(&quot;//span[text()=&apos;API &apos;]&quot;),&quot;line-height&quot;) ' selected='false'/>
+   <accessor type='assertEqual' value='  getComputedStyle(byXPath(&quot;//span[text()=&apos;API Product &apos;]&quot;),&quot;line-height&quot;)  ' selected='false'/>
+   <accessor type='assertEqual' value='   getComputedStyle(byXPath(&quot;//p[text()=&apos;API Product &apos;]&quot;),&quot;line-height&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"40px"' type='web' desc='&quot;Validate the header in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='  getComputedStyle(byXPath(&quot;//h1[@aria-label=&apos;Analyze MyWorkpiece /Capture4Analysis&apos;]&quot;),&quot;font-size&quot;) ' selected='true'/>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//h1//span[text()=&apos;Analyze MyWorkpiece /Monitor&apos;]&quot;),&quot;font-size&quot;)' selected='false'/>
+   <accessor type='assertEqual' value=' getComputedStyle(byXPath(&quot;//h1//span[text()=&apos;Analyze MyWorkpiece /Capture4Analysis&apos;]&quot;),&quot;font-size&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"52px"' type='web' desc='&quot;Validate the header in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='  getComputedStyle(byXPath(&quot;//h1[@aria-label=&apos;Analyze MyWorkpiece /Capture4Analysis&apos;]&quot;),&quot;line-height&quot;)' selected='true'/>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//h1//span[text()=&apos;Analyze MyWorkpiece /Monitor&apos;]&quot;),&quot;line-height&quot;)' selected='false'/>
+   <accessor type='assertEqual' value=' getComputedStyle(byXPath(&quot;//h1//span[text()=&apos;Analyze MyWorkpiece /Capture4Analysis&apos;]&quot;),&quot;line-height&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"API World"' type='web' desc='&quot;Validate the text in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value=' byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;API World&apos;]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='byXPa' selected='false'/>
+   <accessor type='assertContainsText' value=' byXPath(&quot;&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='  byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Developers&apos;]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='//lightning-formatted-rich-text//span[text()=&apos;Developers&apos;]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Developers&apos;]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"400"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='   getComputedStyle( byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;API World&apos;]&quot;),&quot;font-weight&quot;) ' selected='true'/>
+   <accessor type='assertEqual' value=' getComputedStyle( byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Developers&apos;]&quot;),&quot;font-size&quot;) ' selected='false'/>
+   <accessor type='assertEqual' value='  getComputedStyle( byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Developers&apos;]&quot;),&quot;font-weight&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"12px"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value=' getComputedStyle( byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;API World&apos;]&quot;),&quot;font-size&quot;) ' selected='true'/>
+   <accessor type='assertEqual' value=' getComputedStyle' selected='false'/>
+   <accessor type='assertEqual' value='getComputedStyle( byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Developers&apos;]&quot;),&quot;font-size&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"20px"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value=' getComputedStyle( byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;API World&apos;]&quot;),&quot;line-height&quot;) ' selected='true'/>
+   <accessor type='assertEqual' value='getComputedStyle( byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Developers&apos;]&quot;),&quot;line-height&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Analyze MyWorkpiece /Capture4Analysis"' type='web' desc='&quot;Validate the text in English&quot;' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value=' byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Analyze MyWorkpiece /Capture4Analysis&apos;]&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Analyze MyWorkpiece /Monitor&apos;]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Analyze MyWorkpiece /Monitor&apos;]&quot;) ' selected='false'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"20px"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Analyze MyWorkpiece /Capture4Analysis&apos;]&quot;),&quot;line-height&quot;)' selected='true'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"12px"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Analyze MyWorkpiece /Capture4Analysis&apos;]&quot;),&quot;font-size&quot;)' selected='true'/>
+</dialect>
+</step>
+<step action='assertEqual' value='"700"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertEqual' value='getComputedStyle(byXPath(&quot;//lightning-formatted-rich-text//span[text()=&apos;Analyze MyWorkpiece /Capture4Analysis&apos;]&quot;),&quot;font-weight&quot;)' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='heading2(&quot;fs_32&quot;)' selected='true'/>
+   <accessor type='click' value='heading2(0, _in(div(&quot;This API product contains[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='heading2(&quot;This API product contains&quot;)' selected='false'/>
+   <accessor type='click' value='heading2(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='heading2(&quot;Community&quot;)' selected='true'/>
+   <accessor type='click' value='heading2(0, _in(div(&quot;gridItem slds-size_1-of-1&quot;)))' selected='false'/>
+   <accessor type='click' value='heading2(0, _in(div(&quot;Community&quot;)))' selected='false'/>
+   <accessor type='click' value='heading2(1)' selected='false'/>
+   <accessor type='click' value='heading2(&quot;communityTags&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;API World&quot;)' selected='true'/>
+   <accessor type='click' value='span(5)' selected='false'/>
+   <accessor type='click' value='span(0, _in(link(&quot;slds-container_fluid slds-truncate[3]&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Welcome to API World&quot;)' selected='true'/>
+   <accessor type='click' value='span(9)' selected='false'/>
+   <accessor type='click' value='span(0, _in(custom(&quot;lightning-formatted-rich-text&quot;, &quot;communityRichText slds-rich-text-editor__output&quot;)))' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='heading2(&quot;api-text&quot;)' selected='true'/>
+   <accessor type='click' value='heading2(0, _in(div(&quot;gridItem iotLargeHeadline slds-size_1-of-1&quot;)))' selected='false'/>
+   <accessor type='click' value='heading2(&quot;API catalogue&quot;)' selected='false'/>
+   <accessor type='click' value='heading2(0)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"107,13"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;exp-api iotStandardText&quot;)' selected='true'/>
+   <accessor type='clickXY' value='div(&quot;Explore our APIs&quot;)' selected='false'/>
+   <accessor type='clickXY' value='div(54)' selected='false'/>
+</dialect>
+</step>
+</testcase>
