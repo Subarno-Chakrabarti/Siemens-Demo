@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'/>
 <fallback useFallback='true'/>
 <step action='navigateTo' value='"https://www.myntra.com/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
@@ -18,6 +18,7 @@
 </step>
 <step action='selectWindow' value='"Men Shopping Online - Shop for Mens Clothing &amp; Accessories in India | Myntra"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
+   <accessor type='selectWindow' value='' selected='true'/>
 </dialect>
 </step>
 <step action='clickXY' value='"124,87"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -26,10 +27,6 @@
    <accessor type='clickXY' value='image(&quot;https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/89f1bd9d-3a28-456d-888a-beff717a06f81594222908155-Shirts.jpg&quot;)' selected='false'/>
    <accessor type='clickXY' value='image(0, _in(custom(&quot;picture&quot;, &quot;img-responsive[16]&quot;)))' selected='false'/>
    <accessor type='clickXY' value='image(19)' selected='false'/>
-</dialect>
-</step>
-<step action='selectWindow' value='"Buy The Indian Garage Co Men White &amp; Teal Blue Slim Fit Striped Casual Shirt - Shirts for Men 10673544 | Myntra"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
 </dialect>
 </step>
 <step action='clickXY' value='"100,33"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -48,24 +45,12 @@
    <accessor type='click' value='paragraph(2)' selected='false'/>
 </dialect>
 </step>
-<step action='selectWindow' value='"Shirts - Buy from Latest Collection of Shirt Online at Best Price | Myntra"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-</dialect>
-</step>
-<step action='selectWindow' value='"Buy The Indian Garage Co Men White &amp; Teal Blue Slim Fit Striped Casual Shirt - Shirts for Men 10673544 | Myntra"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-</dialect>
-</step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;desktop-iconBag myntraweb-sprite sprites-headerBag&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(link(&quot;desktop-cart&quot;)))' selected='false'/>
    <accessor type='click' value='span(0, _in(link(&quot;1Bag&quot;)))' selected='false'/>
    <accessor type='click' value='span(8)' selected='false'/>
-</dialect>
-</step>
-<step action='selectWindow' value='"SHOPPING BAG"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
 </dialect>
 </step>
 </testcase>
